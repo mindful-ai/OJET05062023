@@ -10,4 +10,8 @@
     <p style="color:blue">You will enjoy it!</p>
 </body>
 </html>
+ 
+ Try this code to visualize DOM in the following link:
+ https://software.hixie.ch/utilities/js/live-dom-viewer/
+
 ------------------------------------------------------------------------------------------------
