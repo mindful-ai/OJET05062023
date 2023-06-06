@@ -50,3 +50,19 @@ Add a link below to this which points to W3schools CSS tutorial
 Add some style of your choice
 
 ------------------------------------------------------------------------------------------------
+
+var tablegen;
+        $(document).ready(function(){
+            tablegen = function(val){
+              $("#table").empty();
+              for(i = 1; i <= 10; i++){
+                var child = $("<h3></h3>").text(val + ' X ' + i + ' = ' + (val * i));
+                $("#table").append(child);
+              }
+            }
+        })
+        
+jQuery code for solving the multiplication table
+
+------------------------------------------------------------------------------------------------
+
